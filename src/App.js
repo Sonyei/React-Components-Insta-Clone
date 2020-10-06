@@ -22,7 +22,7 @@ const App = () => {
   function likePost(postId) {
     setPosts(posts.map(postObj => {
 return postObj.id === postId ? 
-{...postObj, likes: postObj.likes + 1} : postObj
+{...postObj, likes: postObj.likes + 1}: postObj
 }))
  };
     

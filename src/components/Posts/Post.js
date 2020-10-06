@@ -21,7 +21,7 @@ const Post = props => {
         />
       </div>
       
-      <LikeSection likeButton={evt => likeButton(postDetails.id)} numberOfLikes={postDetails.likes}/>)
+      <LikeSection likeButton={evt => likeButton(postDetails.id)} numberOfLikes={postDetails.likes}/>
       <Comments comment={postDetails.comments}/>
     </div>
   );
